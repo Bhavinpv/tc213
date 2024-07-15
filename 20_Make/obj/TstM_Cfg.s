@@ -1,0 +1,207 @@
+	.file	"TstM_Cfg.c"
+.section .text,"ax",@progbits
+.Ltext0:
+	.global	TstM_ExpTestSignature
+	.section .rodata.MPU_ASIL_CONST,"a",@progbits
+	.align 2
+	.type	TstM_ExpTestSignature, @object
+	.size	TstM_ExpTestSignature, 84
+TstM_ExpTestSignature:
+	.word	1618221149
+	.word	1394917012
+	.word	1174884958
+	.word	-258009347
+	.word	-712356286
+	.word	1788582412
+	.word	1098921211
+	.word	1786126721
+	.word	-1840756112
+	.word	-1307932503
+	.word	473096985
+	.word	503220631
+	.word	-2036837795
+	.word	2047195816
+	.word	-1192767587
+	.word	-718376444
+	.word	-1804814502
+	.word	-2009039518
+	.word	538582422
+	.word	-79078672
+	.word	1179963106
+.section .text,"ax",@progbits
+.Letext0:
+	.file 1 "../30_Bsw/Common/Platform_Types.h"
+	.file 2 "../30_Bsw/TstM/Config/TstM_Cfg.c"
+	.section .debug_info,"",@progbits
+.Ldebug_info0:
+	.uaword	0x140
+	.uahalf	0x2
+	.uaword	.Ldebug_abbrev0
+	.byte	0x4
+	.uleb128 0x1
+	.string	"GNU C 4.6.3 build on 2013-05-17"
+	.byte	0x1
+	.string	"../30_Bsw/TstM/Config/TstM_Cfg.c"
+	.string	"S:\\\\20_Make"
+	.uaword	.Ltext0
+	.uaword	.Letext0
+	.uaword	.Ldebug_line0
+	.uleb128 0x2
+	.byte	0x1
+	.byte	0x6
+	.string	"signed char"
+	.uleb128 0x2
+	.byte	0x1
+	.byte	0x8
+	.string	"unsigned char"
+	.uleb128 0x2
+	.byte	0x2
+	.byte	0x5
+	.string	"short int"
+	.uleb128 0x2
+	.byte	0x2
+	.byte	0x7
+	.string	"short unsigned int"
+	.uleb128 0x2
+	.byte	0x4
+	.byte	0x5
+	.string	"int"
+	.uleb128 0x2
+	.byte	0x4
+	.byte	0x7
+	.string	"unsigned int"
+	.uleb128 0x2
+	.byte	0x4
+	.byte	0x4
+	.string	"float"
+	.uleb128 0x2
+	.byte	0x8
+	.byte	0x4
+	.string	"double"
+	.uleb128 0x2
+	.byte	0x4
+	.byte	0x7
+	.string	"long unsigned int"
+	.uleb128 0x2
+	.byte	0x1
+	.byte	0x6
+	.string	"char"
+	.uleb128 0x2
+	.byte	0x4
+	.byte	0x5
+	.string	"long int"
+	.uleb128 0x3
+	.string	"uint32"
+	.byte	0x1
+	.byte	0x5f
+	.uaword	0xd3
+	.uleb128 0x4
+	.uaword	0xfc
+	.uaword	0x11a
+	.uleb128 0x5
+	.uaword	0xd3
+	.byte	0x14
+	.byte	0
+	.uleb128 0x6
+	.string	"TstM_ExpTestSignature"
+	.byte	0x2
+	.byte	0x25
+	.uaword	0x13e
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.uaword	TstM_ExpTestSignature
+	.uleb128 0x7
+	.uaword	0x10a
+	.byte	0
+	.section .debug_abbrev,"",@progbits
+.Ldebug_abbrev0:
+	.uleb128 0x1
+	.uleb128 0x11
+	.byte	0x1
+	.uleb128 0x25
+	.uleb128 0x8
+	.uleb128 0x13
+	.uleb128 0xb
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x1b
+	.uleb128 0x8
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x10
+	.uleb128 0x6
+	.byte	0
+	.byte	0
+	.uleb128 0x2
+	.uleb128 0x24
+	.byte	0
+	.uleb128 0xb
+	.uleb128 0xb
+	.uleb128 0x3e
+	.uleb128 0xb
+	.uleb128 0x3
+	.uleb128 0x8
+	.byte	0
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x16
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x4
+	.uleb128 0x1
+	.byte	0x1
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x5
+	.uleb128 0x21
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x2f
+	.uleb128 0xb
+	.byte	0
+	.byte	0
+	.uleb128 0x6
+	.uleb128 0x34
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x2
+	.uleb128 0xa
+	.byte	0
+	.byte	0
+	.uleb128 0x7
+	.uleb128 0x26
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.byte	0
+	.section .debug_line,"",@progbits
+.Ldebug_line0:
+	.ident	"GCC: (HighTec Release v4.6.3.0) 4.6.3 build on 2013-05-17"
